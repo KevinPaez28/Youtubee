@@ -64,7 +64,17 @@ hr{
 border:solid 1px var(--hr);
 margin:12px 0;
 }
+::-webkit-scrollbar{
+  width: 8px;
 
+}
+::-webkit-scrollbar-thumb{
+  background-color: transparent;
+  border-radius: 5px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+  background-color: #717171;
+}
 .header{
   grid-area:header;
   position: fixed;
@@ -83,6 +93,7 @@ margin:12px 0;
 .sidebar{
   grid-area:sidebar;
   background-color:var(--sidebar_fondo);
+  overflow-y: scroll;
 }
 
 .content{
