@@ -75,6 +75,14 @@ margin:12px 0;
 .sidebar::-webkit-scrollbar-thumb{
   background-color: #717171;
 }
+
+.chips-warpper::-webkit-scrollbar{
+  height: 6px;
+
+}
+.chips-warpper:hover::-webkit-scrollbar-thumb{
+  background-color: #717171;
+}
 .header{
   grid-area:header;
   position: fixed;
@@ -100,6 +108,17 @@ margin:12px 0;
   grid-area:content;
   background-color: var(--base);
 }
+.chips-warpper{
+  overflow-x:scroll;
+  max-width: calc(100vw - 240px);
+  background-color: #181818;
+  display: flex;
+  padding-left: 14px;
+  border-top:1px solid rgba(--hr);
+  border-bottom: 1px solid rgba(--hr);
+  white-space:nowrap;
+}
+
 
 /* HEADER */
 /* Logo-menu */
@@ -236,6 +255,19 @@ background-color: var(--hover);
 transition: 1s;
 }
 
+/* CONTENT */
+.chips{
+margin:12px 6px;
+background-color: #373737;
+padding:6px 12px;
+color:var(--blanco);
+cursor: pointer;
+border-radius: 16px;
+}
+.chips:hover{
+ background-color: #d4d4d4;
+ transition: 1s;
+}
 
 
 
