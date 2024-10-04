@@ -7,6 +7,9 @@
   --Borde_search:rgba(255,225,255,0.1);
   --fondo_botton:#313131;
   --hover:#494949;
+  --sidebar_fondo:#212121;
+  --hr:rgba(255, 255, 255, 0.1);
+  --h4:#aaa;
 }
 *{
   margin: 0;
@@ -23,7 +26,7 @@ body{
   height: 100vh;
   grid-template-areas:
   'header header'
-  'sidebar-left content';
+  'sidebar content';
 }
 
 img{
@@ -44,6 +47,23 @@ a{
 h1{
 font-size: 1.5rem;
 }
+i{
+  font-size: 1.5rem;
+}
+p,a{
+  font-size: 0.9rem;
+}
+h4{
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-left:20px;
+  color:var(--h4);
+}
+
+hr{
+border:solid 1px var(--hr);
+margin:12px 0;
+}
 
 .header{
   grid-area:header;
@@ -60,10 +80,11 @@ font-size: 1.5rem;
   padding-right: 10px;
 }
 
-.sidebar-left{
-  grid-area:sidebar-left;
-  background-color: var(--base);
+.sidebar{
+  grid-area:sidebar;
+  background-color:var(--sidebar_fondo);
 }
+
 .content{
   grid-area:content;
   background-color: var(--base);
@@ -183,55 +204,28 @@ letter-spacing: -1px;
 
 /* slidebar */
 
-/* .menu-superior{
-  color:var(--blanco);
-  width: 30px;
-  height: 30px;
-  
-}
-.inicio{
-  height: 40px;
-  width: 200px;
+.sidebar-items{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 0px 14px;
+}
+.sidebar-item{
+  height: 40px;
+  display: flex;
   align-items: center;
-  border-radius:10px;
-  gap:30px;
-  font-size:20px;
-  margin-left:15px;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.sidebar i{
+  margin-right: 24px;
+}
+.sidebar-item:hover{
+background-color: var(--hover);
+transition: 1s;
+}
 
 
-}
-.shorts{
-   height: 40px;
-  width: 200px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius:10px;
-  gap:30px;
-  font-size:20px;
-  margin-left:15px;
-}
-.bx-play{
-  width:20px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--blanco)
-}
-.Suscripciones{
-  height: 40px;
-  width: 200px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius:10px;
-  gap:25px;
-  font-size:20px;
-  margin-left:15px;
-} */
 
 
 
