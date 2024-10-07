@@ -97,6 +97,7 @@ margin:12px 0;
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
+  gap:4px;
 }
 
 .sidebar{
@@ -349,4 +350,26 @@ border-radius: 16px;
   margin-left:5px;
 }
 
+@media(max-width:1200px){
+  body{
+    grid-template-columns: 70px 1fr;
+  }
+  .sidebar-items samp, .sidebar-items h4{
+    display: none;
+  }
+  .sidebar-item {
+    padding: 0px;
+  }
+  .sidebar-items {
+    padding: 0px 12px;
+  }
+  .chips-warpper{
+    max-width: calc(100vw - 70px);
+  }
+}
 
+@media(max-width:600px){
+  .search-content{
+    display: none;
+  }
+}
