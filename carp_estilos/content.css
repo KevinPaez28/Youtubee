@@ -1,0 +1,150 @@
+.content{
+  grid-area:content;
+  background-color: var(--base);
+}
+.contenido{
+  display:grid;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows:56px 1fr;
+  height: 100vh;
+  grid-template-areas:
+  'header header'
+  'sidebar content';
+}
+
+.imagenes{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit:contain
+}
+
+.icono{
+  font-size: 1.5rem;
+}
+/* CONTENT */
+.chips{
+  overflow-x:scroll;
+  max-width: calc(100vw - 240px);
+  background-color:var(--content);
+  display: flex;
+  padding-left: 14px;
+  border-top:1px solid rgba(--hr);
+  border-bottom: 1px solid rgba(--hr);
+  white-space:nowrap;
+}
+.chips__items{
+margin:12px 6px;
+background-color: var(--fondo_chips);
+padding:6px 12px;
+color:var(--blanco);
+cursor: pointer;
+border-radius: 16px;
+}
+.chips__items--fondo--redondeado:hover{
+ background-color:var(--hover_chips);
+ transition: 1s;
+}
+
+.chips__parrafo{
+  font-size: 0.9rem;
+
+}
+
+.chips::-webkit-scrollbar{
+  height: 6px;
+
+}
+.chips:hover::-webkit-scrollbar-thumb{
+  background-color: var(--scroll);
+
+}
+
+.video{
+  display: grid;
+  /* grid-template-columns: repeat(4,1fr); */
+  gap:18px;
+  height:calc(100vh - 118px);
+  padding: 20px;
+  background-color:var(--Content);
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));  
+  grid-template-rows:repeat(auto-fill,minmax(250px,5fr));  
+  overflow-y: scroll;
+}
+
+.video__content{
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+  padding: 8px;
+  border-radius: 12px;
+  transition: 1s;
+ 
+}
+.video__content--fondo-gris:hover{
+ background-color: var(--fondo_chips);
+
+}
+
+.video__container{
+  position: relative;
+  transition: 0.5rem;
+
+}
+
+.video-box{
+  position: relative;
+  width: auto;
+  height: 145px;
+  display: block;
+  text-decoration: none;
+  font-size:0.9rem;
+  color:var(--blanco);
+}
+
+.video-box .imgenes{
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.video-detail{
+  display: flex;
+  color:#fff;
+  padding-top:12px;
+}
+
+.chanel-logo{
+  position: relative;
+  min-width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+.informacion{
+  margin-left:12px;
+}
+
+.informacion__title{
+  font-size:0.9rem;
+}
+
+.informacion__name{
+  font-size:0.9rem; 
+  margin-top:10px;
+  color:var(--h4);
+}
+
+.informacion__upload{
+  display: flex;
+  font-size:0.8rem;
+  margin-top:4px;
+  color: var(--h4);
+
+}
+.upload{
+  margin-left:5px;
+}

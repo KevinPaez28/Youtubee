@@ -12,573 +12,604 @@
 
 </head>
 
-<body>
+<body class ="contenido">
   <header class="header">
     <!--Contenedor logo-->
-    <div class="logo-container">
-
-      <a href="#">
-        <i class='bx bx-menu'></i>
+    <div class="logo">
+      <a class="logo__menu" href="#">
+        <i class='icono bx bx-menu'></i>
       </a>
-      <div class="logo">
-        <div class="logo-img">
-          <img src="img/logo.png" alt="logo">
+        <div class="logo__img logo__img--gris">
+          <img class="imagenes" src="img/logo.png" alt="logo">
         </div>
-        <h1>YouTube</h1>
+        <h1 class="title">YouTube</h1>
       </div>
     </div>
 
     <!-- Contenedor busqueda -->
-    <div class="search-content">
-      <form action="">
-        <input type="text" placeholder="Buscar">
-        <button>
-          <i class='bx bx-search'></i>
+    <div class="conten">
+      <form class="conten__formulario" action="">
+        <input class="conten__barranav" type="text" placeholder="Buscar">
+        <button class="conten__icono">
+          <i class='icono bx bx-search'></i>
         </button>
       </form>
-      <button class="content_microfono"><i class='bx bx-microphone'></i>
+      <button class="conten__icono conten__icono--fondo-redondeado"><i class='icono bx bx-microphone'></i>
       </button>
     </div>
     <!-- Creador Perfil -->
-    <div class="profile-container">
-      <a href="#">
-        <i class='bx bx-video-plus'></i>
+    <div class="profile">
+      <a  class="profile__icono profile__icono--fondo-redondeado " href="#">
+        <i class='icono bx bx-video-plus'></i>
       </a>
-      <a href="#">
+      <a class="profile__icono profile__icono--fondo-redondeado " href="#">
         <i class='bx bx-bell'></i>
       </a>
-
-        <div class="profile-box">
-             <img src ="img/john.jpg" alt="perfil">
-        </div>
-    </div>
-
-
-
-
+      <div class="profile-box">
+        <img class="imagenes" src ="img/john.jpg" alt="perfil ">
+      </div>
     </div>
   </header>
 
   <aside class="sidebar">
-    <div class="sidebar-items">
-      <a href="#" class="sidebar-item"><i class="ri-home-5-line"></i><samp>Home</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-compass-3-line"></i><samp>Explore</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-wireless-charging-line"></i><samp>Shorts</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-rss-line"></i><samp>Subcripciones</samp></a>
-      <hr>
+    <div class="sidebar__items">
+      <a href="#" class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-home-5-line"></i><samp>Home</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-compass-3-line"></i><samp>Explore</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-wireless-charging-line"></i><samp>Shorts</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-rss-line"></i><samp>Subcripciones</samp></a>
+      <hr class="separador">
 
-      <a href="#" class="sidebar-item"><i class="ri-links-line"></i><samp>Libary</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-chat-history-line"></i><samp>History</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-video-line"></i><samp>Your videos</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-time-line"></i><samp>Watch videos</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-play-list-2-line"></i><samp>All videos</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-arrow-down-line"></i></i><samp>Show more</samp></a>
-      <hr>
-      <h4>MORE FROM YOUTUBE</h1>
-      <a href="#"class="sidebar-item"><i class="ri-keyboard-box-line"></i><samp>Gaming</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-live-line"></i><samp>Live</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-award-line"></i></i><samp>Sports</samp></a>
-      <hr>
-      <a href="#"class="sidebar-item"><i class="ri-settings-5-line"></i><samp>Settings</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-flag-line"></i><samp>Report history</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-question-line"></i></i><samp>Help</samp></a>
-      <a href="#"class="sidebar-item"><i class="ri-feedback-line"></i></i><samp>Send feedback</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-links-line"></i><samp>Libary</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-chat-history-line"></i><samp>History</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-video-line"></i><samp>Your videos</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-time-line"></i><samp>Watch videos</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-play-list-2-line"></i><samp>All videos</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-arrow-down-line"></i></i><samp>Show more</samp></a>
+      <hr class="separador">
+      <h4 class="text__sidebar">MORE FROM YOUTUBE</h1>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-keyboard-box-line"></i><samp>Gaming</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-live-line"></i><samp>Live</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-award-line"></i></i><samp>Sports</samp></a>
+      <hr class="separador">
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-settings-5-line"></i><samp>Settings</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-flag-line"></i><samp>Report history</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-question-line"></i></i><samp>Help</samp></a>
+      <a href="#"class="sidebar__item sidebar__item--fondo-gris"><i class="icono ri-feedback-line"></i></i><samp>Send feedback</samp></a>
       
     </div>
-   
+   </aside>
 
-    <div class="menu-intermedio">
-    </div>
-  </aside>
   <main class="content">
-
-    <div class="chips-warpper">
-      <div class="chips">
-        <p>all</p>
+    <div class="chips">
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo">all</p>
       </div>
-      <div class="chips">
-        <p>HTML</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >HTML</p>
       </div>
-      <div class="chips">
-        <p>CSS</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >CSS</p>
       </div>
-      <div class="chips">
-        <p>Responsive desing</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >Responsive desing</p>
       </div>
-      <div class="chips">
-        <p>UI desing</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >UI desing</p>
       </div>
-      <div class="chips">
-        <p>JavaScript</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >JavaScript</p>
       </div>
-      <div class="chips">
-        <p>React</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >React</p>
       </div>
-      <div class="chips">
-        <p>UI/UX</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >UI/UX</p>
       </div>
-      <div class="chips">
-        <p>Java</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >Java</p>
       </div>
-      <div class="chips">
-        <p>PHP</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >PHP</p>
       </div>
-      <div class="chips">
-        <p>Node js</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >Node js</p>
       </div>
-      <div class="chips">
-        <p>Mysql</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >Mysql</p>
       </div>
-      <div class="chips">
-        <p>Oracle</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >Oracle</p>
       </div>
-      <div class="chips">
-        <p>UML</p>
+      <div class="chips__items chips__items--fondo--redondeado">
+        <p class="chips__parrafo" >UML</p>
       </div>
     </div>
 
-    <div class="video-container">
+    <div class="video">
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-1.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-2.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-3.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-4.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-5.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-6.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-7.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-8.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-9.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-10.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-11.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-12.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-13.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-14.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-15.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-16.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-17.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-18.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-19.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-20.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-21.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video__container">
+        <div class="video__content video__content--fondo-gris">
+          <a href="#" class="video-box">
+            <img class="imagenes" src="img/img-22.jpg" alt="">
+          </a>
+          <div class="video-detail">
+            <div class="chanel-logo">
+              <img class="imagenes" src="img/john.jpg" alt="">
+            </div>
+
+            <div class="informacion">
+              <h3 class="informacion__title">Clon Youtube Flebox and Grid CSS</h3>
+              <div class="informacion__name">Kevin Paez</div>
+              <div class="informacion__upload">
+                <div class="views">28K Views</div>
+                <div class="upload">1 year ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-1.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-2.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-3.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-4.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-5.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-6.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-7.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-8.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-9.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-10.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-11.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-12.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-13.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-14.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-15.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-16.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-17.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-18.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-19.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-20.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-21.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
-            <img src="img/img-22.jpg" alt="">
-          </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
-              <img src="img/john.jpg" alt="">
-            </div>
-            <div class="detail">
-              <h3 class="title">Clon Youtube Flebox and Grid CSS</h3>
-              <div class="chanel-name">Kevin Paez</div>
-              <div class="views-upload">
-                <div class="views">28K Views</div>
-                <div class="upload">1 year ago</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>      
     </div>
   
   </main>

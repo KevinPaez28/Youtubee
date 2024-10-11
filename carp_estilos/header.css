@@ -1,0 +1,128 @@
+/* HEADER */
+.header{
+  grid-area:header;
+  position: fixed;
+  top: 0;
+  left:0;
+  background-color: var(--base);
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap:4px;
+}
+/* Logo- */
+.logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 6px;
+}
+.logo__menu{
+  text-decoration: none;
+  font-size:0.9rem;
+  color:var(--blanco);
+}
+.logo__img{
+  position: relative;
+  height: 25px;
+  width: 30px;
+}
+.logo__img--gris:hover{
+ background-color:var(--hover);
+  transition: 1s;
+}
+
+.title{
+color: var(--blanco);
+letter-spacing: -1px;
+font-size: 1.5rem;
+}
+
+/* barra busqueda */
+.conten{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 1 650px;
+}
+
+.conten__formulario{
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.conten__barranav{
+  height: 40px;
+  background-color: var(--search_fondo);
+  width: 100%;
+  color:var(--blanco);
+  padding: 12px;
+  outline: none ;
+  border:1px solid var(--Borde_search);
+  border-radius:10px 0px 0px 10px;
+}
+
+.conten__icono{
+  min-width: 40px;
+  height: 40px;
+  background-color:var(--fondo_botton);
+  color:var(--blanco);
+  border:none;
+  outline: none;
+  border-radius:0px 10px 10px 0px;
+  cursor:pointer;
+}
+
+.conten__icono--fondo-redondeado:hover{
+  background-color:var(--hover);
+  transition: 1s;
+}
+
+.conten__formulario ~ .conten__icono{
+  border-radius:50%;
+}
+
+/* Perfil */
+
+.profile{
+  display: flex ;
+  align-items: center;
+  position: relative;
+  gap:20px;
+
+}
+.profile__icono{
+  background-color: var(--fondo_botton);
+  min-width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none ;
+  border: none;
+  text-decoration: none;
+  font-size:0.9rem;
+  color:var(--blanco);
+  cursor: pointer;
+}
+.profile__icono--fondo-redondeado:hover{
+  background-color: var(--hover);
+  transition: 1s;
+}
+.profile-box{
+  position:relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+}
+.profile-box .imagenes{
+  border-radius:50%;
+
+}
